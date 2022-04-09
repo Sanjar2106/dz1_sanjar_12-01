@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background: url(../images/2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#input {
+    border: none;
+    background: rgba(255,255,255,.08);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    background: blue;
+    color: white;
+    width: 350px;
+    height: 50px;
+}
+#btn {
+    display: inline-block;
+    min-width: 300px;
+    margin: 15px;
+    padding: 2px 25px;
+    line-height: 48px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    background: red;
+    outline: none;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+#numbers {
+    border: none;
+    background: rgba(255,255,255,.08);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    background: orange;
+    color: white;
+    width: 350px;
+    height: 50px;
+}
+#btn_number {
+    display: inline-block;
+    min-width: 300px;
+    margin: 15px;
+    padding: 2px 25px;
+    line-height: 48px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    background: black;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    transform: scale(1);
+}
+#removed {
+    display: inline-block;
+    min-width: 200px;
+    margin: 15px;
+    padding: 2px 25px;
+    line-height: 48px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: purple;
+    font-weight: 400;
+    outline: none;
+    cursor: pointer;
+    transform: scale(1);
+}
+#delete {
+    display: inline-block;
+    min-width: 200px;
+    margin: 15px;
+    padding: 2px 25px;
+    line-height: 48px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background: green;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    outline: none;
+    cursor: pointer;
+    transform: scale(1);
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
